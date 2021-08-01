@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow-x: hidden;
+}
+
+div.array-inputs {
+    display: grid;
+    -ms-grid-columns: (20%)[2];
+    grid-template-columns: repeat(2, 20%);
+    place-content: center;
+    margin: auto;
+    text-align: center;
+    background: #D4CBC3;
+}
+
+div.array-inputs2 {
+    display: grid;
+    place-content: center;
+    margin: auto;
+    text-align: center;
+    background: #D4CBC3;
+}
+
+div.array-inputs #a_size {
+    padding: 2% 2%;
+}
+
+div.array-inputs #a_speed {
+    padding: 2% 2%;
+}
+
+div.array-inputs2 #a_generate {
+    background-color: #f5ce0a;
+    border: none;
+    outline: none;
+    font-size: large;
+    color: white;
+    padding: 2%;
+}
+
+div.array-inputs2 #a_generate:hover {
+    background-color: #fafafa;
+    color: #f5ce0a;
+}
+
+.header_right {
+    position: relative;
+    margin: auto;
+    top: 50%;
+    text-align: center;
+    font-size: xx-large;
+    padding: 1.5% 0%;
+    background: #3399ff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.algos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (16.66667%)[6];
+    grid-template-columns: repeat(6, 16.66667%);
+    place-content: center;
+}
+
+button {
+    padding: 5% 0%;
+    margin: 10px 4px;
+    color: #f1f1f1;
+    background: #e23e38;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+    color: #e23e38;
+}
+
+section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+    grid-template-columns: 20% 60% 20%;
+}
+
+section #Info_Cont1 {
+    padding: 20%;
+}
+
+section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+section #Info_Cont2 {
+    padding: 20%;
+}
+
+.hide {
+    display: none;
+}
